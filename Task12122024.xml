@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/conta/IdeaProjects/ATB9xAPIAutomationPrograms/src/test/java/com/snehalsawant/Task13122024/TestCase1_ValidBookingId_BddStyle.java">
+        <classes><class name="com.snehalsawant.Task12122024.TestCase1_ValidBookingId_BddStyle">
+
+            <methods><include name="test_ValidBookingId"/></methods>
+        </class>
+        </classes>
+    </test>
+</suite>
