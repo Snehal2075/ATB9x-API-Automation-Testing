@@ -5,7 +5,7 @@
 
 <parameter name="Browser" value="chrome"></parameter>
         <classes>
-            <class name="com.snehalsawant.ex_allTestNGExamples.APITesting019_Parameter">
+            <class name="com.snehalsawant.ex_03_allTestNGExamples.APITesting019_Parameter">
 
             </class>
         </classes>

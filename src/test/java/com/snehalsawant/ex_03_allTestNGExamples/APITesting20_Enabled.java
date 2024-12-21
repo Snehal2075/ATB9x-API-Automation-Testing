@@ -1,15 +1,15 @@
-package com.snehalsawant.ex_allTestNGExamples;
+package com.snehalsawant.ex_03_allTestNGExamples;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class APITesting21_AlwaysRun {
+public class APITesting20_Enabled {
 
-@Test
+    @Test
     public void test01 (){
         Assert.assertTrue(true);
     }
- @Test(alwaysRun = true)
+    @Test(enabled = false)
     public void test02 (){
         Assert.assertTrue(true);}
 @Test
@@ -17,7 +17,5 @@ public class APITesting21_AlwaysRun {
         Assert.assertTrue(true);}
 
 
+
 }
-
-
-

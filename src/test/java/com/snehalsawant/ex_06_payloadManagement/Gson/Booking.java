@@ -23,7 +23,7 @@ public class Booking {
         private Boolean depositpaid;
         @SerializedName("bookingdates")
         @Expose
-        private Bookingdates bookingdates;
+        private BookingDates bookingdates;
         @SerializedName("additionalneeds")
         @Expose
         private String additionalneeds;
@@ -60,11 +60,11 @@ public class Booking {
             this.depositpaid = depositpaid;
         }
 
-        public Bookingdates getBookingdates() {
+        public BookingDates getBookingdates() {
             return bookingdates;
         }
 
-        public void setBookingdates(Bookingdates bookingdates) {
+        public void setBookingdates(BookingDates bookingdates) {
             this.bookingdates = bookingdates;
         }
 

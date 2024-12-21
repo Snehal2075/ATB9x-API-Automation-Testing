@@ -1,6 +1,5 @@
-package com.snehalsawant.ex_allTestNGExamples;
+package com.snehalsawant.ex_03_allTestNGExamples;
 
-import org.testng.Assert;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
